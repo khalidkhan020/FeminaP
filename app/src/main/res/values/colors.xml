@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_material_light">#990000</color>
+    <color name="primary_dark_material_light">#a704ad</color>
+    <color name="accent_material_light_1">#f500b8</color>
+    <color name="accent_material_light_2">#f500b8</color>
+    <color name="accent_material_light_3">#f500b8</color>
+    <color name="background_material_light">#6b2136</color>
+    <color name="foreground_material_light">#c21313</color>
+    <color name="black">#ad11a0</color>
+    <color name="primary_material_light">#673ab7</color>
+    <color name="primary_dark_material_dark">#9c1da8</color>
+    <color name="primary_material_dark">#e91e63</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

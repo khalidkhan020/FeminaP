@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Dashboard"/>
+        <item
+            android:id="@+id/calender"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Calender"/>
+        <item
+            android:id="@+id/feedline"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Feed Line"/>
+        <item
+            android:id="@+id/cycle"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Complete Cycle"/>
+        <item
+            android:id="@+id/logs"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="My Logs"/>
+        <item
+            android:id="@+id/moodnsym"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Mood &amp; Symptoms"/>
+        <item
+            android:id="@+id/medication"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Mood &amp; Symptoms"/>
+        <item
+            android:id="@+id/personal"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Personal"/>
+        <item
+            android:id="@+id/weightmgmnt"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Weight Management"/>
+        <item
+            android:id="@+id/bodymeasur"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Body Measurment"/>
+        <item
+            android:id="@+id/records"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="My Records"/>
+        <item
+            android:id="@+id/cummut"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Commute"/>
+        <item
+            android:id="@+id/infospace"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="My Infospace"/>
+        <item
+            android:id="@+id/appointments"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Appointments"/>
+        <item
+            android:id="@+id/schedule"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Schedule"/>
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Notifications"/>
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings"/>
+    </group>
+
+
+    <item
+        android:title="Communicate"
+        android:showAsAction="collapseActionView"
+        android:menuCategory="secondary"
+
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"/>
+            <item
+                android:id="@+id/suggestion"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Suggest us"/>
+            <item
+                android:id="@+id/business"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Business"/>
+
+
+            <item
+                android:id="@+id/localize"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Localize your App"/>
+
+        </menu>
+    </item>
+    <item android:title="Other">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/help"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Help"/>
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="About us"/>
+
+                <item
+                    android:id="@+id/credits"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Credits"/>
+            </group>
+        </menu>
+    </item>
+</menu>
