@@ -1,4 +1,4 @@
-package com.appzone.feminaplus;
+package com.appzone.feminaplus.activities;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
@@ -14,6 +14,8 @@ import android.view.animation.BounceInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.ScaleAnimation;
 import android.view.animation.TranslateAnimation;
+
+import com.appzone.feminaplus.R;
 
 public class SplashScreen extends AppCompatActivity
 {
