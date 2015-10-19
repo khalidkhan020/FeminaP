@@ -13,7 +13,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.appzone.feminaplus.AnalyticsTrackers;
 import com.appzone.feminaplus.R;
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 
 public class Dashboard extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener
 {
@@ -40,6 +43,19 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
         toggle.syncState();
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+    }
+
+    @Override
+    protected void onResume()
+    {
+        Tracker mTracker= AnalyticsTrackers.getInstance().get(AnalyticsTrackers.Target.APP);
+        mTracker.setScreenName("Image~" + "Dashboard");
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+        mTracker.send(new HitBuilders.EventBuilder()
+                              .setCategory("Action")
+                              .setAction("Share")
+                              .build());
+        super.onResume();
     }
 
     @Override
